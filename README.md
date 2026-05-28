@@ -9,7 +9,7 @@ Developed by [Ranasurya Ghosh](https://github.com/NuclearVenom)
 
 ## Overview
 
-[Robot Arm Simulator](https://github.com/NuclearVenom/Robot-Arm-Simulator-(2D)) is an interactive desktop application that visualises how robotic arms solve the inverse kinematics problem in two-dimensional space. You click anywhere on the canvas, and the arm smoothly animates to that position — computing the required joint angles in real time using classical geometric methods.
+[Robot Arm Simulator](./simulate.py) is an interactive desktop application that visualises how robotic arms solve the inverse kinematics problem in two-dimensional space. You click anywhere on the canvas, and the arm smoothly animates to that position — computing the required joint angles in real time using classical geometric methods.
 
 The simulator supports three configurations: a two-joint arm (2-DOF), a three-joint arm (3-DOF), and a four-joint arm (4-DOF). You can switch between them live, watching the arm morph between configurations. A step-by-step calculation report can be exported for any target position, making the simulator as useful for learning as it is for experimentation.
 
