@@ -1113,20 +1113,6 @@ class MainWindow(QMainWindow):
             arm_box.add_widget(w)
         sl.addWidget(arm_box)
 
-        # # ── Instructions ──
-        # instr_box = SectionBox("Instructions")
-        # self._instr_lbl = QLabel(
-        #     "Click on the plane to set a target.\n\n"
-        #     "Use the toggle to switch between\n"
-        #     "2-DOF, 3-DOF and 4-DOF mode.\n"
-        #     "The arm morphs between configurations."
-        # )
-        # self._instr_lbl.setWordWrap(True)
-        # self._instr_lbl.setStyleSheet(
-        #     f"font-family: '{FONT}'; font-size: 11px; color: {CLR_TEXT_SEC.name()};")
-        # instr_box.add_widget(self._instr_lbl)
-        # sl.addWidget(instr_box)
-
         # ── Action Buttons ──
         btn_row = QWidget()
         btn_row_l = QHBoxLayout(btn_row)
