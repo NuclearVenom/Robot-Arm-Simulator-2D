@@ -1000,8 +1000,8 @@ class MainWindow(QMainWindow):
         subtitle = QLabel('Developed by <a href="https://github.com/NuclearVenom" '
                             'style="color:#1E7E3E; font-weight:bold;">'
                             'Ranasurya Ghosh</a>')
-        subtitle.setStyleSheet(
-            f"font-family: '{FONT}'; font-size: 17px; color: {CLR_TEXT_SEC.name()};")
+        subtitle.setStyleSheet(f"font-family: '{FONT}'; font-size: 17px; color: {CLR_TEXT_SEC.name()};")
+        subtitle.setOpenExternalLinks(True)
         sl.addWidget(subtitle)
         sl.addWidget(_divider())
 
