@@ -1,15 +1,20 @@
 # Robot Arm Simulator
 
-*A planar inverse kinematics visualiser for 2-DOF, 3-DOF and 4-DOF robotic arms, built with Python and PyQt5.*
+>A planar inverse kinematics visualiser for 2-DOF, 3-DOF and 4-DOF robotic arms, built with Python and PyQt5.
 
-Developed by [Ranasurya Ghosh](https://github.com/NuclearVenom)
+*Developed by [Ranasurya Ghosh](https://github.com/NuclearVenom)*
 
-[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-blue)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.13-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3130/)
+![PyQt5](https://img.shields.io/badge/PyQt5-5.15-BA55D3?style=flat&logo=qt&logoColor=white)
+[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green)](./LICENSE)
 ---
+
+![Demo](https://raw.githubusercontent.com/NuclearVenom/Robot-Arm-Simulator-2D/blob/main/assets/demo.gif)
+<br><br>
 
 ## Overview
 
-[Robot Arm Simulator](./simulate.py) is an interactive desktop application that visualises how robotic arms solve the inverse kinematics problem in two-dimensional space. You click anywhere on the canvas, and the arm smoothly animates to that position — computing the required joint angles in real time using classical geometric methods.
+[Robot Arm Simulator](https://github.com/NuclearVenom/Robot-Arm-Simulator-(2D)) is an interactive desktop application that visualises how robotic arms solve the inverse kinematics problem in two-dimensional space. You click anywhere on the canvas, and the arm smoothly animates to that position — computing the required joint angles in real time using classical geometric methods.
 
 The simulator supports three configurations: a two-joint arm (2-DOF), a three-joint arm (3-DOF), and a four-joint arm (4-DOF). You can switch between them live, watching the arm morph between configurations. A step-by-step calculation report can be exported for any target position, making the simulator as useful for learning as it is for experimentation.
 
