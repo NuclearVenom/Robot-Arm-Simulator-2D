@@ -53,7 +53,7 @@ pip install PyQt5
 **Run the application**
 
 ```bash
-python robot_arm_simulator.py
+python run_simulation.py
 ```
 
 The window opens maximised. No additional configuration is needed.
@@ -264,3 +264,7 @@ All logic, UI, and rendering are contained in a single Python file organised int
 ## Acknowledgements
 
 Built entirely in Python using the PyQt5 GUI framework. No external robotics or mathematics libraries are used — all kinematics are implemented from first principles.
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
