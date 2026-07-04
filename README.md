@@ -9,7 +9,7 @@
 [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green)](./LICENSE)
 ---
 
-![Demo](assests/demo.gif)
+![Demo](assets/demo.gif)
 <br><br>
 
 ## Overview
