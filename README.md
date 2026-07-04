@@ -9,7 +9,7 @@
 [![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green)](./LICENSE)
 ---
 
-![Demo](https://raw.githubusercontent.com/NuclearVenom/Robot-Arm-Simulator-2D/blob/main/assets/demo.gif)
+![Demo](assests/demo.gif)
 <br><br>
 
 ## Overview
