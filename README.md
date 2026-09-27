@@ -1,16 +1,28 @@
 # Robot Arm Simulator
 
->A planar inverse kinematics visualiser for 2-DOF, 3-DOF and 4-DOF robotic arms, built with Python and PyQt5.
+> A planar inverse kinematics visualiser for 2-DOF, 3-DOF and 4-DOF robotic arms, built with Python and PyQt5.
 
-*Developed by [Ranasurya Ghosh](https://github.com/NuclearVenom)*
+<p align="center">
+  <strong>Developed by <a href="https://github.com/NuclearVenom">Ranasurya Ghosh</a></strong>
+</p>
 
-[![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3130/)
-![PyQt5](https://img.shields.io/badge/PyQt5-5.15+-BA55D3?style=flat&logo=qt&logoColor=white)
-[![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green?style=flat&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyLjc1IDIuNzVWNC41aDEuOTc1Yy4zNTEgMCAuNjk0LjEwNi45ODQuMzAzbDEuNjk3IDEuMTU0Yy4wNDEuMDI4LjA5LjA0My4xNC4wNDNoNC4xMDJhLjc1Ljc1IDAgMCAxIDAgMS41SDIwLjA3bDMuMzY2IDcuNjhhLjc0OS43NDkgMCAwIDEtLjIzLjg5NmMtLjEuMDc0LS4yMDMuMTQzLS4zMS4yMDZhNi4yOTYgNi4yOTYgMCAwIDEtLjc5LjM5OSA3LjM0OSA3LjM0OSAwIDAgMS0yLjg1Ni41NjkgNy4zNDMgNy4zNDMgMCAwIDEtMi44NTUtLjU2OCA2LjIwNSA2LjIwNSAwIDAgMS0uNzktLjQgMy4yMDUgMy4yMDUgMCAwIDEtLjMwNy0uMjAybC0uMDA1LS4wMDRhLjc0OS43NDkgMCAwIDEtLjIzLS44OTZsMy4zNjgtNy42OGgtLjg4NmMtLjM1MSAwLS42OTQtLjEwNi0uOTg0LS4zMDNsLTEuNjk3LTEuMTU0YS4yNDYuMjQ2IDAgMCAwLS4xNC0uMDQzSDEyLjc1djE0LjVoNC40ODdhLjc1Ljc1IDAgMCAxIDAgMS41SDYuNzYzYS43NS43NSAwIDAgMSAwLTEuNWg0LjQ4N1Y2SDkuMjc1YS4yNDkuMjQ5IDAgMCAwLS4xNC4wNDNMNy40MzkgNy4xOTdjLS4yOS4xOTctLjYzMy4zMDMtLjk4NC4zMDNoLS44ODZsMy4zNjggNy42OGEuNzUuNzUgMCAwIDEtLjIwOS44NzhjLS4wOC4wNjUtLjE2LjEyNi0uMzEuMjIzYTYuMDc3IDYuMDc3IDAgMCAxLS43OTIuNDMzIDYuOTI0IDYuOTI0IDAgMCAxLTIuODc2LjYyIDYuOTEzIDYuOTEzIDAgMCAxLTIuODc2LS42MiA2LjA3NyA2LjA3NyAwIDAgMS0uNzkyLS40MzMgMy40ODMgMy40ODMgMCAwIDEtLjMwOS0uMjIxLjc2Mi43NjIgMCAwIDEtLjIxLS44OEwzLjkzIDcuNUgyLjM1M2EuNzUuNzUgMCAwIDEgMC0xLjVoNC4xMDJjLjA1IDAgLjA5OS0uMDE1LjE0MS0uMDQzbDEuNjk1LTEuMTU0Yy4yOS0uMTk4LjYzNC0uMzAzLjk4NS0uMzAzaDEuOTc0VjIuNzVhLjc1Ljc1IDAgMCAxIDEuNSAwWk0yLjE5MyAxNS4xOThhNS40MTQgNS40MTQgMCAwIDAgMi41NTcuNjM1IDUuNDE0IDUuNDE0IDAgMCAwIDIuNTU3LS42MzVMNC43NSA5LjM2OFptMTQuNTEtLjAyNGMuMDgyLjA0LjE3NC4wODMuMjc1LjEyNi41My4yMjMgMS4zMDUuNDUgMi4yNzIuNDVhNS44NDcgNS44NDcgMCAwIDAgMi41NDctLjU3NkwxOS4yNSA5LjM2N1oiLz48L3N2Zz4=)](./LICENSE)
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-3130/">
+    <img src="https://img.shields.io/badge/Python-3.13+-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+  </a>
+  <img src="https://img.shields.io/badge/PyQt5-5.15+-BA55D3?style=flat&logo=qt&logoColor=white" alt="PyQt5">
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/LICENSE-MIT-green?style=flat" alt="MIT License">
+  </a>
+</p>
+
 ---
 
-![Demo](assets/demo.gif)
-<br><br>
+<p align="center">
+  <img src="assets/demo.gif" alt="Robot Arm Simulator Demo">
+</p>
+
+---
 
 ## Overview
 
@@ -24,16 +36,16 @@ The simulator supports three configurations: a two-joint arm (2-DOF), a three-jo
 
 | Feature | Description |
 |---|---|
-| 2-DOF / 3-DOF / 4-DOF modes | Switch between configurations using an animated segmented toggle. The arm morphs smoothly between them. |
-| Click-to-target IK | Click anywhere on the canvas to set a target. The arm animates to reach it. |
-| Real-time joint readout | Shoulder, elbow, wrist and finger angles update every frame in degrees. |
-| End-effector position display | Live X/Y coordinates of the tip of the arm in world units. |
-| Adjustable link lengths | Sliders for all four link lengths (L₁ through L₄), with relevant sliders enabled or greyed out per mode. |
-| Adjustable animation speed | Control how fast the arm moves from 1 % to 100 %. |
-| Workspace visualisation | A shaded circle shows the maximum reachable envelope, updating as link lengths change. |
-| Step-by-step calculation report | Generates a full textbook-style derivation of the IK solution for the current target. Copy to clipboard or download as a `.txt` file. |
-| Hover coordinate display | Shows the world-space coordinates of your mouse cursor on the canvas. |
-| Reset button | Animates all joints back to zero degrees. |
+| **2-DOF / 3-DOF / 4-DOF modes** | Switch between configurations using an animated segmented toggle. The arm morphs smoothly between them. |
+| **Click-to-target IK** | Click anywhere on the canvas to set a target. The arm animates to reach it. |
+| **Real-time joint readout** | Shoulder, elbow, wrist and finger angles update every frame in degrees. |
+| **End-effector position display** | Live X/Y coordinates of the tip of the arm in world units. |
+| **Adjustable link lengths** | Sliders for all four link lengths (L₁ through L₄), with relevant sliders enabled or greyed out per mode. |
+| **Adjustable animation speed** | Control how fast the arm moves from 1 % to 100 %. |
+| **Workspace visualisation** | A shaded circle shows the maximum reachable envelope, updating as link lengths change. |
+| **Step-by-step calculation report** | Generates a full textbook-style derivation of the IK solution for the current target. Copy to clipboard or download as a `.txt` file. |
+| **Hover coordinate display** | Shows the world-space coordinates of your mouse cursor on the canvas. |
+| **Reset button** | Animates all joints back to zero degrees. |
 
 ---
 
