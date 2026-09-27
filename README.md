@@ -24,16 +24,16 @@ The simulator supports three configurations: a two-joint arm (2-DOF), a three-jo
 
 | Feature | Description |
 |---|---|
-| **2-DOF / 3-DOF / 4-DOF modes** | Switch between configurations using an animated segmented toggle. The arm morphs smoothly between them. |
-| **Click-to-target IK** | Click anywhere on the canvas to set a target. The arm animates to reach it. |
-| **Real-time joint readout** | Shoulder, elbow, wrist and finger angles update every frame in degrees. |
-| **End-effector position display** | Live X/Y coordinates of the tip of the arm in world units. |
-| **Adjustable link lengths** | Sliders for all four link lengths (L₁ through L₄), with relevant sliders enabled or greyed out per mode. |
-| **Adjustable animation speed** | Control how fast the arm moves from 1 % to 100 %. |
-| **Workspace visualisation** | A shaded circle shows the maximum reachable envelope, updating as link lengths change. |
-| **Step-by-step calculation report** | Generates a full textbook-style derivation of the IK solution for the current target. Copy to clipboard or download as a `.txt` file. |
-| **Hover coordinate display** | Shows the world-space coordinates of your mouse cursor on the canvas. |
-| **Reset button** | Animates all joints back to zero degrees. |
+| 2-DOF / 3-DOF / 4-DOF modes | Switch between configurations using an animated segmented toggle. The arm morphs smoothly between them. |
+| Click-to-target IK | Click anywhere on the canvas to set a target. The arm animates to reach it. |
+| Real-time joint readout | Shoulder, elbow, wrist and finger angles update every frame in degrees. |
+| End-effector position display | Live X/Y coordinates of the tip of the arm in world units. |
+| Adjustable link lengths | Sliders for all four link lengths (L₁ through L₄), with relevant sliders enabled or greyed out per mode. |
+| Adjustable animation speed | Control how fast the arm moves from 1 % to 100 %. |
+| Workspace visualisation | A shaded circle shows the maximum reachable envelope, updating as link lengths change. |
+| Step-by-step calculation report | Generates a full textbook-style derivation of the IK solution for the current target. Copy to clipboard or download as a `.txt` file. |
+| Hover coordinate display | Shows the world-space coordinates of your mouse cursor on the canvas. |
+| Reset button | Animates all joints back to zero degrees. |
 
 ---
 
